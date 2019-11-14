@@ -26,7 +26,7 @@ public class BeanMapUtils {
      */
     public static <T> T mapToBean(Map<String, Object> map,Class<T> clazz) throws Exception {
         T bean = clazz.newInstance();
-        啊哈哈哈哈
+        System.out.println("回家安静安静安静");
         BeanMap beanMap = BeanMap.create(bean);
         beanMap.putAll(map);
         return bean;
